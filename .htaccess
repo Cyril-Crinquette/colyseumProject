@@ -1,0 +1,29 @@
+# links follow
+Options +FollowSymlinks 
+# rewrite Apache activate
+RewriteEngine On
+
+
+# /bienvenue -> /controllers/welcome_control.php
+RewriteRule ^bienvenue$ /controllers/welcome_control.php [L]
+
+# /liste_de_clients -> /controllers/exercice1_control.php
+RewriteRule ^liste-de-clients$ /controllers/exercice1_control.php [L]
+
+# /inscription -> /controllers/exercice2_control.php
+RewriteRule ^types-de-spectacles$ /controllers/exercice2_control.php [L]
+
+# /bienvenue -> /controllers/exercice3_control.php
+RewriteRule ^premiers-clients$ /controllers/exercice3_control.php [L]
+
+# /accueil -> /controllers/exercice4_control.php
+RewriteRule ^clients-fidèles$ /controllers/exercice4_control.php [L]
+
+# /inscription -> /controllers/exercice5_control.php
+RewriteRule ^clients-en-m$ /controllers/exercice5_control.php [L]
+
+# /inscription -> /controllers/exercice6_control.php
+RewriteRule ^programmation$ /controllers/exercice6_control.php [L]
+
+# /inscription -> /controllers/exercice7_control.php
+RewriteRule ^cards$ /controllers/exercice7_control.php [L]
