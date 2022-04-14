@@ -1,6 +1,6 @@
 <?php
 
-header('location: /controllers/exercice1_control.php');
+header('location: /bienvenue');
 die;
 
-// include(dirname(__FILE__).'/../controllers/exercice1_control.php');
+// url redéfinie dans le fichier htaccess, chemin + simple et + rapide à écrire dans les liens

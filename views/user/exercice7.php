@@ -17,8 +17,8 @@
                         <h5 class="card-title"><?=$customer->lastName;?></h5>
                         <h4><?=$customer->firstName;?></h4>
                         <h4><?=$customer->birthDate;?></h4>
-                        <h4><?=$customer->card;?></h4>
-                        <h4><?=$customer->cardNumber;?></h4>
+                        <h4><?=$customer->fidelity;?></h4>
+                        <h4><?=$customer->numberCard;?></h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                             content. This content is a little bit longer.</p>
                     </div>
